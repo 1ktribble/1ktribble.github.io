@@ -3489,6 +3489,13 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+	img.avatar {
+		height: auto;
+		width: 10em;
+		max-width: 100%;
+		border-radius: 50%;
+	}
+
 /* Footer */
 
 	#sidebar + #wrapper + #footer {
@@ -3567,6 +3574,13 @@ input, select, textarea {
 				height: 100%;
 			}
 
+		#sidebar img > .avatar {
+			vertical-align: middle;
+			width: 50px;
+			height: 50px;
+			border-radius: 50px;
+		}
+		
 		#sidebar nav > ul {
 			list-style: none;
 			padding: 0;
